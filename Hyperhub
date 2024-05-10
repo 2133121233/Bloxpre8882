@@ -1,0 +1,7 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2133121233/Bloxpre8882/main/message%20(5).txt"))()
+wait(1)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2133121233/Bloxpre8882/main/Codex(The%20Best).txt"))()
+wait(1)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2133121233/Bloxpre8882/main/Cubix%20ui.txt"))()
+wait(1)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2133121233/Bloxpre8882/main/Delta%20X%20Executor(old).txt"))()
