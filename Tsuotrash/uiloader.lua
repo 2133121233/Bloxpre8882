@@ -50,9 +50,8 @@ pcall(function()
         ImageLabel.BorderColor3 = Color3.new(0, 0, 0)
         ImageLabel.BorderSizePixel = 0
         ImageLabel.Position = UDim2.new(0.48888889, 0, 0.48888889, 0)
-        ImageLabel.Size = UDim2.new(0, 45, 0, 45)
-        local LogOid = loadstring(game:HttpGet("https://raw.githubusercontent.com/memaybeohub/Function-Scripts/main/TsuoHubLogo.lua"))()
-        ImageLabel.Image = "rbxassetid://"..tostring(LogOid)
+        ImageLabel.Size = UDim2.new(0, 30, 0, 30)
+        ImageLabel.Image = "rbxassetid://18651915147"
         
         TextButton.Parent = MainFrame
         TextButton.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -74,12 +73,12 @@ pcall(function()
 end) 
 UiLoader.Window = UiLoader.Fluent:CreateWindow(
     {
-        Title = "TRAVEL SEA Hub",
-        SubTitle = "Develope by Hyper Hub (dsc.gg/hyperscript)",
+        Title = "Tsuo Hub",
+        SubTitle = "Cracked By dsc.gg/hyperscript",
         TabWidth = 160,
-        Size = UDim2.fromOffset(500, 290),
+        Size = UDim2.fromOffset(Size11, Size22),
         Acrylic = false, -- The blur may be detectable, setting this to false disables blur entirely
-        Theme = "Aqua",
+        Theme = "Amethyst",
         MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
     }
 ) 
