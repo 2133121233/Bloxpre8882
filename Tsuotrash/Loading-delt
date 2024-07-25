@@ -10,10 +10,10 @@ local CheckMobile = function()
     end
 end 
 local IsMobile = CheckMobile()
-local Size11,Size22 = 600,460 
+local Size11,Size22 = 550,400 
 pcall(function()
     if IsMobile then 
-        Size11,Size22 = 500,290
+        Size11,Size22 = 480,300
         local ClickButton = Instance.new("ScreenGui")
         local MainFrame = Instance.new("Frame")
         local ImageLabel = Instance.new("ImageLabel")
@@ -78,7 +78,7 @@ UiLoader.Window = UiLoader.Fluent:CreateWindow(
         TabWidth = 160,
         Size = UDim2.fromOffset(Size11, Size22),
         Acrylic = false, -- The blur may be detectable, setting this to false disables blur entirely
-        Theme = "Amethyst",
+        Theme = "Darker",
         MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
     }
 ) 
