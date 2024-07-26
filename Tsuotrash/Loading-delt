@@ -50,7 +50,7 @@ pcall(function()
         ImageLabel.BorderColor3 = Color3.new(0, 0, 0)
         ImageLabel.BorderSizePixel = 0
         ImageLabel.Position = UDim2.new(0.48888889, 0, 0.48888889, 0)
-        ImageLabel.Size = UDim2.new(0, 30, 0, 30)
+        ImageLabel.Size = UDim2.new(0, 40, 0, 40)
         ImageLabel.Image = "rbxassetid://18655542953"
         
         TextButton.Parent = MainFrame
@@ -73,12 +73,12 @@ pcall(function()
 end) 
 UiLoader.Window = UiLoader.Fluent:CreateWindow(
     {
-        Title = "Loading Hub",
+        Title = "Loading Hub <LGBTQ version>",
         SubTitle = "Made By batatadocebr25#0000",
         TabWidth = 160,
         Size = UDim2.fromOffset(Size11, Size22),
         Acrylic = false, -- The blur may be detectable, setting this to false disables blur entirely
-        Theme = "Darker",
+        Theme = "Rose",
         MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
     }
 ) 
