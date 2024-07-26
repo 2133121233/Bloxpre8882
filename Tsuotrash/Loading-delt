@@ -73,12 +73,12 @@ pcall(function()
 end) 
 UiLoader.Window = UiLoader.Fluent:CreateWindow(
     {
-        Title = "Loading Hub <LGBTQ version>",
+        Title = "Loading Hub",
         SubTitle = "Made By batatadocebr25#0000",
         TabWidth = 160,
         Size = UDim2.fromOffset(Size11, Size22),
         Acrylic = false, -- The blur may be detectable, setting this to false disables blur entirely
-        Theme = "Rose",
+        Theme = "Darker",
         MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
     }
 ) 
