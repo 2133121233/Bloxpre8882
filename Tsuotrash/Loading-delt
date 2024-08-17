@@ -73,7 +73,7 @@ pcall(function()
 end) 
 UiLoader.Window = UiLoader.Fluent:CreateWindow(
     {
-        Title = "Loading Hub",
+        Title = "Ghost Hub",
         SubTitle = "Made By batatadocebr25#0000",
         TabWidth = 160,
         Size = UDim2.fromOffset(Size11, Size22),
